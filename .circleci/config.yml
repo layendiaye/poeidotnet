@@ -18,8 +18,8 @@ jobs:
           name: "Say hello"
           command: "echo Hello, Ablaye!"
       - run:
-          name: "print ate"
-          command: "date"
+          name: "print date"
+          command: "ipconfig"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
