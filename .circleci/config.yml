@@ -16,9 +16,9 @@ jobs:
       test:
         docker:
           - image: cimg/base:stable
-       steps:
-      - checkout
-      - run:
+        steps:
+         - checkout
+         - run:
           name: "test du code"
           command: 
             ls -l
